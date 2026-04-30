@@ -328,7 +328,7 @@ export const useGameStore = create<GameState>()(
       },
     }),
     {
-      name: 'ecomedz-game-storage',
+      name: 'disposai-game-storage',
     }
   )
 );

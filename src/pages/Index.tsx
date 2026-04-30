@@ -30,7 +30,7 @@ const Index = () => {
             animate={{ opacity: 1, y: 0 }}
             className="text-center text-white mb-8"
           >
-            <h1 className="text-3xl font-bold mb-2">EcoMedz AIdvisor</h1>
+            <h1 className="text-3xl font-bold mb-2">DisposAI</h1>
             <p className="text-white/80 text-sm">Scan. Decide. Dispose responsibly.</p>
           </motion.div>
 
@@ -189,7 +189,7 @@ const Index = () => {
       <section className="px-4 mt-8 mb-4">
         <div className="max-w-md mx-auto">
           <p className="text-xs text-center text-muted-foreground px-4">
-            EcoMedz AIdvisor provides general guidance only. Follow local regulations and 
+            DisposAI provides general guidance only. Follow local regulations and 
             pharmacy instructions. When in doubt, use take-back programs.
           </p>
         </div>

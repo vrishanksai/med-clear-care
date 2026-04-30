@@ -193,7 +193,7 @@ const DisposalReport = ({ medicine, confidence, detectedText, imageUrl, onConfir
           backgroundColor: '#ffffff',
         });
         const link = document.createElement('a');
-        link.download = `EcoMedz-Report-${actionId}.png`;
+        link.download = `DisposAI-Report-${actionId}.png`;
         link.href = dataUrl;
         link.click();
       } catch (err) {
@@ -206,8 +206,8 @@ const DisposalReport = ({ medicine, confidence, detectedText, imageUrl, onConfir
     if (navigator.share) {
       try {
         await navigator.share({
-          title: 'EcoMedz AIdvisor Disposal Report',
-          text: `I safely disposed ${medicine.brandNames[0]} using EcoMedz AIdvisor! Join the eco-movement.`,
+          title: 'DisposAI Disposal Report',
+          text: `I safely disposed ${medicine.brandNames[0]} using DisposAI! Join the eco-movement.`,
           url: window.location.href,
         });
       } catch (err) {

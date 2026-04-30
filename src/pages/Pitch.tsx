@@ -50,7 +50,7 @@ const Pitch = () => {
       color: 'bg-primary/10 text-primary',
       content: (
         <div className="space-y-4">
-          <p className="text-lg font-medium">EcoMedz AIdvisor: AI-Powered Safe Disposal</p>
+          <p className="text-lg font-medium">DisposAI: AI-Powered Safe Disposal</p>
           <div className="space-y-3">
             {[
               { icon: Smartphone, text: 'Scan medicine with your camera' },
@@ -189,7 +189,7 @@ const Pitch = () => {
           </Link>
           <div>
             <h1 className="text-xl font-bold">Pitch Deck</h1>
-            <p className="text-sm text-muted-foreground">EcoMedz AIdvisor Overview</p>
+            <p className="text-sm text-muted-foreground">DisposAI Overview</p>
           </div>
         </div>
       </header>
@@ -202,7 +202,7 @@ const Pitch = () => {
             animate={{ opacity: 1, y: 0 }}
             className="ocean-gradient rounded-3xl p-6 text-white text-center"
           >
-            <h2 className="text-3xl font-bold mb-2">EcoMedz AIdvisor</h2>
+            <h2 className="text-3xl font-bold mb-2">DisposAI</h2>
             <p className="text-white/80 mb-4">Scan. Decide. Dispose responsibly.</p>
             <div className="flex justify-center gap-4 text-sm">
               <span className="bg-white/20 px-3 py-1 rounded-full">🤖 AI-Powered</span>
@@ -244,7 +244,7 @@ const Pitch = () => {
             <Link to="/scan">
               <Button variant="ocean" size="xl">
                 <Sparkles className="h-5 w-5" />
-                Try EcoMedz AIdvisor Now
+                Try DisposAI Now
               </Button>
             </Link>
           </motion.div>
