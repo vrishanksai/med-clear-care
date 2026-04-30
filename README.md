@@ -1,4 +1,4 @@
-# DisposAI - AI-Powered Medicine Disposal Guide
+# EcoMedz AIdvisor - AI-Powered Medicine Disposal Guide
 
 An intelligent application that helps users safely dispose of medications using AI-powered identification and guidance.
 

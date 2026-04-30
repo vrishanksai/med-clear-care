@@ -25,7 +25,7 @@ const About = () => {
             </Button>
           </Link>
           <div>
-            <h1 className="text-xl font-bold">About DisposAI</h1>
+            <h1 className="text-xl font-bold">About EcoMedz AIdvisor</h1>
             <p className="text-sm text-muted-foreground">Learn about our mission</p>
           </div>
         </div>
@@ -42,7 +42,7 @@ const About = () => {
             <div className="mx-auto w-20 h-20 rounded-3xl ocean-gradient flex items-center justify-center mb-4 shadow-glow">
               <Globe className="h-10 w-10 text-white" />
             </div>
-            <h2 className="text-2xl font-bold mb-2">DisposAI</h2>
+            <h2 className="text-2xl font-bold mb-2">EcoMedz AIdvisor</h2>
             <p className="text-muted-foreground">
               Scan. Decide. Dispose responsibly.
             </p>
@@ -62,7 +62,7 @@ const About = () => {
               <h3 className="font-semibold">Our Mission</h3>
             </div>
             <p className="text-sm text-muted-foreground leading-relaxed">
-              DisposAI empowers individuals to make environmentally responsible 
+              EcoMedz AIdvisor empowers individuals to make environmentally responsible 
               decisions about medication disposal. Using AI-powered recognition, 
               we provide personalized, safe disposal guidance while gamifying 
               eco-friendly behavior to create lasting change.
@@ -145,7 +145,7 @@ const About = () => {
               <h3 className="font-semibold">The Team</h3>
             </div>
             <p className="text-sm text-muted-foreground">
-              DisposAI was created by a passionate team committed to environmental 
+              EcoMedz AIdvisor was created by a passionate team committed to environmental 
               sustainability and public health. Built with ❤️ for a cleaner planet.
             </p>
           </motion.section>
@@ -165,7 +165,7 @@ const About = () => {
               This tool provides general guidance only. Always follow local regulations 
               and pharmacy instructions for medication disposal. Do not flush medicines 
               unless official guidance explicitly permits it. When in doubt, use 
-              pharmacy take-back programs. DisposAI is not responsible for improper 
+              pharmacy take-back programs. EcoMedz AIdvisor is not responsible for improper 
               disposal decisions.
             </p>
           </motion.section>
@@ -181,7 +181,7 @@ const About = () => {
             <div className="space-y-2 text-sm">
               <div className="flex items-center gap-2 text-muted-foreground">
                 <Mail className="h-4 w-4" />
-                <span>contact@disposai.app</span>
+                <span>contact@ecomedz.app</span>
               </div>
               <div className="flex items-center gap-2 text-muted-foreground">
                 <MapPin className="h-4 w-4" />
@@ -192,7 +192,7 @@ const About = () => {
 
           {/* Version */}
           <p className="text-center text-xs text-muted-foreground py-4">
-            DisposAI v1.0.0 • Made with 🌱 for Earth
+            EcoMedz AIdvisor v1.0.0 • Made with 🌱 for Earth
           </p>
         </div>
       </main>
